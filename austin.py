@@ -2,7 +2,7 @@
 """
 Created on Fri Apr 21 02:09:19 2023
 
-@author: markllar
+@author: Mark Larsen
 """
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By

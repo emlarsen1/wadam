@@ -2,7 +2,7 @@
 """
 Created on Sat Apr 29 03:24:29 2023
 
-@author: markllar
+@author: Mark Larsen
 """
 from CTkMessagebox import CTkMessagebox
 from selenium.webdriver.common.keys import Keys

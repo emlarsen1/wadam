@@ -2,7 +2,7 @@
 """
 VSCode Editor
 
-Author: Mark Larsen (markllar@amazon.com)
+Author: Mark Larsen 
 
 Help speed up donation processing
 

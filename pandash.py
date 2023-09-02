@@ -2,7 +2,7 @@
 """
 Created on Fri Apr 21 02:09:28 2023
 
-@author: markllar
+@author: Mark Larsen
 """
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.by import By

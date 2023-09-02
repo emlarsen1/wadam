@@ -2,7 +2,7 @@
 """
 Created on Tue Apr 25 02:26:57 2023
 
-@author: markllar
+@author: Mark Larsen
 """
 
 import configparser

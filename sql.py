@@ -3,7 +3,7 @@
 """
 Created on Thu Apr 27 08:42:42 2023
 
-@author: mlarsen
+@author: Mark Larsen
 """
 import sqlite3
 from sqlite3 import Error

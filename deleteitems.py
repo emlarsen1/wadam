@@ -2,7 +2,7 @@
 """
 Created on Thu May 18 23:11:25 2023
 
-@author: markllar
+@author: Mark Larsen
 """
 import time
 from selenium.webdriver.common.keys import Keys
