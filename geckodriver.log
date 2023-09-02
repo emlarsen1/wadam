@@ -1,0 +1,1529 @@
+1689906080492	geckodriver	INFO	Listening on 127.0.0.1:61101
+1689906083555	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61102" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofile5ehTgr"
+1689906084281	Marionette	INFO	Marionette enabled
+1689906084287	Marionette	INFO	Listening on port 61113
+WebDriver BiDi listening on ws://localhost:61102
+Read port: 61113
+1689906084481	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofile5ehTgr\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:61102/devtools/browser/aa8d31ab-3c2b-4e3c-933c-3ddc4bbb9f33
+1689906108043	Marionette	INFO	Stopped listening on port 61113
+1689906423756	geckodriver	INFO	Listening on 127.0.0.1:61369
+1689906426824	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61370" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofileK5PB18"
+1689906427704	Marionette	INFO	Marionette enabled
+1689906427710	Marionette	INFO	Listening on port 61380
+WebDriver BiDi listening on ws://localhost:61370
+Read port: 61380
+1689906428017	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofileK5PB18\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:61370/devtools/browser/cd8c096b-0ce7-4b17-bb82-51334434faf4
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript warning: https://midway-auth.amazon.com/assets/application-4dda88a59beee7884b369b6f08d9eccf15dd39b4b77b063a873e795ed9583f16.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: , line 0: NotAllowedError: The request is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript warning: https://midway-auth.amazon.com/assets/application-4dda88a59beee7884b369b6f08d9eccf15dd39b4b77b063a873e795ed9583f16.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689906452379	Marionette	INFO	Stopped listening on port 61380
+1689907507405	geckodriver	INFO	Listening on 127.0.0.1:49689
+1689907510445	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49690" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofile68Ef2K"
+1689907511402	Marionette	INFO	Marionette enabled
+1689907511410	Marionette	INFO	Listening on port 49701
+WebDriver BiDi listening on ws://localhost:49690
+Read port: 49701
+1689907511617	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofile68Ef2K\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:49690/devtools/browser/e32a7d35-f2f1-4bdf-a593-2a8055f54c91
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript warning: https://midway-auth.amazon.com/assets/application-4dda88a59beee7884b369b6f08d9eccf15dd39b4b77b063a873e795ed9583f16.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1689907537033	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://prod.na.denali.scot.amazon.dev"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://prod.na.denali.scot.amazon.dev"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1689908010198	Marionette	INFO	Stopped listening on port 49701
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+[Parent 18036, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1689908042156	geckodriver	INFO	Listening on 127.0.0.1:50140
+1689908045219	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50141" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofile7QD4xl"
+1689908046042	Marionette	INFO	Marionette enabled
+1689908046049	Marionette	INFO	Listening on port 50153
+WebDriver BiDi listening on ws://localhost:50141
+Read port: 50153
+1689908046226	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofile7QD4xl\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:50141/devtools/browser/34f6cefe-124d-45ea-b331-b0c7566f837c
+1689908105508	Marionette	INFO	Stopped listening on port 50153
+1689908125755	geckodriver	INFO	Listening on 127.0.0.1:50220
+1689908128859	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50221" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofile37p8g8"
+1689908129652	Marionette	INFO	Marionette enabled
+1689908129657	Marionette	INFO	Listening on port 50230
+WebDriver BiDi listening on ws://localhost:50221
+Read port: 50230
+1689908129927	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofile37p8g8\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:50221/devtools/browser/e5265766-3ef3-4c45-80c9-864dbfdaa07b
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript warning: https://midway-auth.amazon.com/assets/application-4dda88a59beee7884b369b6f08d9eccf15dd39b4b77b063a873e795ed9583f16.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1689908154287	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://midway-auth.amazon.com/assets/application-4dda88a59beee7884b369b6f08d9eccf15dd39b4b77b063a873e795ed9583f16.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1689908185441	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1689908187755	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1689908188646	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1689908235644	Marionette	INFO	Stopped listening on port 50230
+[Parent 412, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1689915281287	geckodriver	INFO	Listening on 127.0.0.1:49801
+1689915284353	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49802" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofileEMAQWr"
+1689915285150	Marionette	INFO	Marionette enabled
+1689915285157	Marionette	INFO	Listening on port 49811
+WebDriver BiDi listening on ws://localhost:49802
+Read port: 49811
+1689915285339	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofileEMAQWr\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:49802/devtools/browser/38a5f4c6-8ab2-422e-84fd-8f5608007815
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript warning: https://midway-auth.amazon.com/assets/application-4dda88a59beee7884b369b6f08d9eccf15dd39b4b77b063a873e795ed9583f16.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1689915311681	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: https://csi.amazon.com/view?view=blame_o&marketplace_id=1&customer_id=&merchant_id=&sku=&fn_sku=&gcid=&fulfillment_channel_code=&listing_type=purchasable&submission_id=&order_id=&external_id=&search_string=%7Bself.tabName%7D&realm=USAmazon&stage=prod&domain_id=&keyword=&submit=Show, line 336: ReferenceError: isItDownStripe is not defined
+JavaScript error: https://csi.amazon.com/view?view=blame_o&marketplace_id=1&customer_id=&merchant_id=&sku=&fn_sku=&gcid=&fulfillment_channel_code=&listing_type=purchasable&submission_id=&order_id=&external_id=&search_string={self.tabName}&realm=USAmazon&stage=prod&domain_id=&keyword=&submit=Show, line 336: ReferenceError: isItDownStripe is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Port.onMessage event fired while context is inactive.
+1689918629258	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://prod.na.denali.scot.amazon.dev"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Port.onMessage event fired while context is inactive.
+1689919100390	Marionette	INFO	Stopped listening on port 49811
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1689919118422	geckodriver	INFO	Listening on 127.0.0.1:57225
+1689919121494	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57226" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofileexQshm"
+1689919122243	Marionette	INFO	Marionette enabled
+1689919122251	Marionette	INFO	Listening on port 57235
+WebDriver BiDi listening on ws://localhost:57226
+Read port: 57235
+1689919122437	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofileexQshm\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:57226/devtools/browser/70c6dbc1-8018-4392-9192-51ded7d038a6
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript warning: https://midway-auth.amazon.com/assets/application-4dda88a59beee7884b369b6f08d9eccf15dd39b4b77b063a873e795ed9583f16.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1689919147990	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+1689919371374	Marionette	INFO	Stopped listening on port 57235
+1689919507683	geckodriver	INFO	Listening on 127.0.0.1:57609
+1689919510750	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57610" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofileIX7Z5D"
+1689919511683	Marionette	INFO	Marionette enabled
+1689919511690	Marionette	INFO	Listening on port 57622
+WebDriver BiDi listening on ws://localhost:57610
+Read port: 57622
+1689919511907	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofileIX7Z5D\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:57610/devtools/browser/6082c395-fc90-45a8-aa0e-c418010b5880
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript warning: https://midway-auth.amazon.com/assets/application-4dda88a59beee7884b369b6f08d9eccf15dd39b4b77b063a873e795ed9583f16.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1689919535643	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+1689919607747	Marionette	INFO	Stopped listening on port 57622
+1689919794478	geckodriver	INFO	Listening on 127.0.0.1:57945
+1689919797533	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57946" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofiled6NKVx"
+1689919798502	Marionette	INFO	Marionette enabled
+1689919798509	Marionette	INFO	Listening on port 57955
+Read port: 57955
+WebDriver BiDi listening on ws://localhost:57946
+1689919798680	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofiled6NKVx\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:57946/devtools/browser/5bf5024d-0483-4669-93b2-6aad9e208c0d
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript warning: https://midway-auth.amazon.com/assets/application-4dda88a59beee7884b369b6f08d9eccf15dd39b4b77b063a873e795ed9583f16.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1689919822537	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Port.onMessage event fired while context is inactive.
+1689919940064	Marionette	INFO	Stopped listening on port 57955
+[Parent 11380, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1689920020571	geckodriver	INFO	Listening on 127.0.0.1:58257
+1689920023617	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58258" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofile0JlncO"
+1689920024567	Marionette	INFO	Marionette enabled
+1689920024574	Marionette	INFO	Listening on port 58269
+WebDriver BiDi listening on ws://localhost:58258
+Read port: 58269
+1689920024762	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofile0JlncO\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:58258/devtools/browser/1903050d-3564-4abf-9045-800c8a90b226
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript warning: https://midway-auth.amazon.com/assets/application-4dda88a59beee7884b369b6f08d9eccf15dd39b4b77b063a873e795ed9583f16.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1689920050341	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Port.onMessage event fired while context is inactive.
+1689920076209	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1689920082462	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Port.onMessage event fired while context is inactive.
+1689920241260	Marionette	INFO	Stopped listening on port 58269
+1689920530397	geckodriver	INFO	Listening on 127.0.0.1:58652
+1689920533434	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58653" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofileMjVpbc"
+1689920534168	Marionette	INFO	Marionette enabled
+1689920534174	Marionette	INFO	Listening on port 58665
+WebDriver BiDi listening on ws://localhost:58653
+Read port: 58665
+1689920534369	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofileMjVpbc\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:58653/devtools/browser/5e4472ad-54cb-4d20-a13a-ad41ea658fca
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript warning: https://midway-auth.amazon.com/assets/application-4dda88a59beee7884b369b6f08d9eccf15dd39b4b77b063a873e795ed9583f16.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1689920563759	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1689920939318	Marionette	INFO	Stopped listening on port 58665
+[Parent 23028, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1689921128639	geckodriver	INFO	Listening on 127.0.0.1:59195
+1689921131688	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59196" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofiler3EeiO"
+1689921132449	Marionette	INFO	Marionette enabled
+1689921132455	Marionette	INFO	Listening on port 59210
+WebDriver BiDi listening on ws://localhost:59196
+Read port: 59210
+1689921132654	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofiler3EeiO\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:59196/devtools/browser/aa6bf32f-e9ec-4613-b64d-bccaf80b68c2
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript warning: https://midway-auth.amazon.com/assets/application-4dda88a59beee7884b369b6f08d9eccf15dd39b4b77b063a873e795ed9583f16.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1689921156488	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+1689921815024	Marionette	INFO	Stopped listening on port 59210
+[Parent 21540, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1689921863377	geckodriver	INFO	Listening on 127.0.0.1:58334
+1689921866417	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58335" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofile50HuPc"
+1689921867183	Marionette	INFO	Marionette enabled
+1689921867189	Marionette	INFO	Listening on port 58347
+WebDriver BiDi listening on ws://localhost:58335
+Read port: 58347
+1689921867384	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofile50HuPc\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:58335/devtools/browser/de1673cb-d7bd-4b81-9aa9-ccdcc61a9702
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript warning: https://midway-auth.amazon.com/assets/application-4dda88a59beee7884b369b6f08d9eccf15dd39b4b77b063a873e795ed9583f16.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1689921891251	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1689921901985	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Port.onMessage event fired while context is inactive.
+1689922061376	Marionette	INFO	Stopped listening on port 58347
+[Parent 8568, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 8568, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:723
+1689922077019	geckodriver	INFO	Listening on 127.0.0.1:58587
+1689922080051	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58588" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofilet4RGnG"
+1689922081023	Marionette	INFO	Marionette enabled
+1689922081030	Marionette	INFO	Listening on port 58597
+WebDriver BiDi listening on ws://localhost:58588
+Read port: 58597
+1689922081219	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofilet4RGnG\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:58588/devtools/browser/a732c9e4-3d64-4a0a-b320-9c4bc9f57ea2
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript warning: https://midway-auth.amazon.com/assets/application-4dda88a59beee7884b369b6f08d9eccf15dd39b4b77b063a873e795ed9583f16.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1689922105319	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1689922326081	Marionette	INFO	Stopped listening on port 58597
+[Parent 14584, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 14584, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:723
+1689993222372	geckodriver	INFO	Listening on 127.0.0.1:61033
+1689993225432	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61034" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofileXtUIB1"
+1689993226320	Marionette	INFO	Marionette enabled
+1689993226327	Marionette	INFO	Listening on port 61047
+WebDriver BiDi listening on ws://localhost:61034
+Read port: 61047
+1689993226538	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofileXtUIB1\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:61034/devtools/browser/090680be-daff-496e-ad42-f467b05a5065
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript warning: https://midway-auth.amazon.com/assets/application-4dda88a59beee7884b369b6f08d9eccf15dd39b4b77b063a873e795ed9583f16.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1689993251053	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1689993499338	Marionette	INFO	Stopped listening on port 61047
+1689993558341	geckodriver	INFO	Listening on 127.0.0.1:61343
+1689993561375	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61344" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofileHpcMtP"
+1689993562152	Marionette	INFO	Marionette enabled
+1689993562158	Marionette	INFO	Listening on port 61353
+WebDriver BiDi listening on ws://localhost:61344
+Read port: 61353
+1689993562355	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofileHpcMtP\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:61344/devtools/browser/797f2d09-d8c4-4991-bbfe-526785ea7ef8
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript warning: https://midway-auth.amazon.com/assets/application-4dda88a59beee7884b369b6f08d9eccf15dd39b4b77b063a873e795ed9583f16.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1689993586699	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Port.onMessage event fired while context is inactive.
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: "Exception when calling onAvailable handler" "Target already destroyed, unable to fetch children fronts" (new Error("Target already destroyed, unable to fetch children fronts", "resource://devtools/client/fronts/targets/target-mixin.js", 316))
+console.error: "Exception when calling onAvailable handler" "Target already destroyed, unable to fetch children fronts" (new Error("Target already destroyed, unable to fetch children fronts", "resource://devtools/client/fronts/targets/target-mixin.js", 316))
+console.error: "Exception when calling onAvailable handler" "Target already destroyed, unable to fetch children fronts" (new Error("Target already destroyed, unable to fetch children fronts", "resource://devtools/client/fronts/targets/target-mixin.js", 316))
+console.error: "Exception when calling onAvailable handler" "Target already destroyed, unable to fetch children fronts" (new Error("Target already destroyed, unable to fetch children fronts", "resource://devtools/client/fronts/targets/target-mixin.js", 316))
+console.error: "Exception when calling onAvailable handler" "Target already destroyed, unable to fetch children fronts" (new Error("Target already destroyed, unable to fetch children fronts", "resource://devtools/client/fronts/targets/target-mixin.js", 316))
+console.error: "Exception when calling onAvailable handler" "Target already destroyed, unable to fetch children fronts" (new Error("Target already destroyed, unable to fetch children fronts", "resource://devtools/client/fronts/targets/target-mixin.js", 316))
+console.error: "Exception when calling onAvailable handler" "Target already destroyed, unable to fetch children fronts" (new Error("Target already destroyed, unable to fetch children fronts", "resource://devtools/client/fronts/targets/target-mixin.js", 316))
+console.error: "Exception when calling onAvailable handler" "Target already destroyed, unable to fetch children fronts" (new Error("Target already destroyed, unable to fetch children fronts", "resource://devtools/client/fronts/targets/target-mixin.js", 316))
+console.error: "Exception when calling onAvailable handler" "Target already destroyed, unable to fetch children fronts" (new Error("Target already destroyed, unable to fetch children fronts", "resource://devtools/client/fronts/targets/target-mixin.js", 316))
+console.error: "Exception when calling onAvailable handler" "Target already destroyed, unable to fetch children fronts" (new Error("Target already destroyed, unable to fetch children fronts", "resource://devtools/client/fronts/targets/target-mixin.js", 316))
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1689993757586	Marionette	INFO	Stopped listening on port 61353
+1689993865903	geckodriver	INFO	Listening on 127.0.0.1:61624
+1689993868946	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61625" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofileKVAlAE"
+1689993869705	Marionette	INFO	Marionette enabled
+1689993869711	Marionette	INFO	Listening on port 61635
+WebDriver BiDi listening on ws://localhost:61625
+Read port: 61635
+1689993869911	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofileKVAlAE\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:61625/devtools/browser/e9188688-cd87-416f-ad90-9cf7bf973ee1
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript warning: https://midway-auth.amazon.com/assets/application-4dda88a59beee7884b369b6f08d9eccf15dd39b4b77b063a873e795ed9583f16.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1689993894160	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1689993903811	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Shutting down due to socket process crash.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1689994150459	geckodriver	INFO	Listening on 127.0.0.1:61940
+1689994153540	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61941" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofileB0Ttig"
+1689994154345	Marionette	INFO	Marionette enabled
+1689994154352	Marionette	INFO	Listening on port 61950
+WebDriver BiDi listening on ws://localhost:61941
+Read port: 61950
+1689994154503	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofileB0Ttig\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:61941/devtools/browser/fa6064cc-8cf5-4dbd-854b-e0db7c90e24a
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript warning: https://midway-auth.amazon.com/assets/application-4dda88a59beee7884b369b6f08d9eccf15dd39b4b77b063a873e795ed9583f16.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1689994178488	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1689994206222	Marionette	INFO	Stopped listening on port 61950
+1689994303868	geckodriver	INFO	Listening on 127.0.0.1:62136
+1689994306919	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62137" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofileDAldrT"
+1689994307849	Marionette	INFO	Marionette enabled
+1689994307857	Marionette	INFO	Listening on port 62150
+WebDriver BiDi listening on ws://localhost:62137
+Read port: 62150
+1689994308074	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofileDAldrT\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:62137/devtools/browser/c89f5a02-f6e7-4d76-993b-e705693d46ea
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript warning: https://midway-auth.amazon.com/assets/application-4dda88a59beee7884b369b6f08d9eccf15dd39b4b77b063a873e795ed9583f16.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1689994333132	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1689994342748	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1689994363750	Marionette	INFO	Stopped listening on port 62150
+1691222146918	geckodriver	INFO	Listening on 127.0.0.1:57642
+1691222149974	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57643" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofilesdyCm6"
+1691222150697	Marionette	INFO	Marionette enabled
+1691222150704	Marionette	INFO	Listening on port 57652
+WebDriver BiDi listening on ws://localhost:57643
+Read port: 57652
+1691222150853	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofilesdyCm6\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:57643/devtools/browser/7fd0a2bd-0083-4767-884d-070366c48ef3
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript warning: https://midway-auth.amazon.com/assets/application-2c1d4daf9217af8ef4006192270a49d75f0d27f9d7025ac3435cb5507a6f2d2b.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1691222176551	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://fcresearch-na.aka.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Port.onMessage event fired while context is inactive.
+1691222324173	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://fcresearch-na.aka.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Port.onMessage event fired while context is inactive.
+1691222332609	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1691222333523	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1691222334389	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1691222555471	Marionette	INFO	Stopped listening on port 57652
+[Parent 7812, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1691222571326	geckodriver	INFO	Listening on 127.0.0.1:57951
+1691222574397	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57952" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofile2do6SR"
+1691222575093	Marionette	INFO	Marionette enabled
+1691222575099	Marionette	INFO	Listening on port 57961
+WebDriver BiDi listening on ws://localhost:57952
+Read port: 57961
+1691222575317	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofile2do6SR\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:57952/devtools/browser/58257613-376d-47a6-8f2b-605cb8157d8c
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://austin-ehs-prod.auth.us-east-1.amazoncognito.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript warning: https://midway-auth.amazon.com/assets/application-2c1d4daf9217af8ef4006192270a49d75f0d27f9d7025ac3435cb5507a6f2d2b.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://midway-auth.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1691222599867	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fcmenu-iad-regionalized.corp.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://fcresearch-na.aka.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Port.onMessage event fired while context is inactive.
+1691222775521	Marionette	INFO	Stopped listening on port 57961
+1693034727050	geckodriver	INFO	Listening on 127.0.0.1:54118
+1693034730117	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54119" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofile5DjKNu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693034730883	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693034730974	Marionette	INFO	Listening on port 54129
+Read port: 54129
+WebDriver BiDi listening on ws://127.0.0.1:54119
+1693034731101	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:54119/devtools/browser/a9a7def7-5d1c-45f7-90e2-e080f75c50c6
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://austin-ehs-prod.auth.us-east-1.amazoncognito.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://austin-ehs-prod.auth.us-east-1.amazoncognito.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+JavaScript warning: https://midway-auth.amazon.com/assets/application-f1e814103151fd196d8fd5d4fe376c0fc544599c5270dee0335f0194d7caa4f7.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+1693034755174	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:180:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://fcmenu-iad-regionalized.corp.amazon.com."
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://fcmenu-iad-regionalized.corp.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://aft-qt-na.aka.amazon.com."
+Port.onMessage event fired while context is inactive.
+1693035046711	Marionette	INFO	Stopped listening on port 54129
+Dynamically enable window occlusion 1
+1693035060548	geckodriver	INFO	Listening on 127.0.0.1:54392
+1693035063588	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54393" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofileSq19Dj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693035064391	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693035064485	Marionette	INFO	Listening on port 54400
+WebDriver BiDi listening on ws://127.0.0.1:54393
+Read port: 54400
+1693035064747	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:54393/devtools/browser/90afc513-8fc1-4cbe-b1ca-c35764d82bf5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://austin-ehs-prod.auth.us-east-1.amazoncognito.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://austin-ehs-prod.auth.us-east-1.amazoncognito.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+JavaScript warning: https://midway-auth.amazon.com/assets/application-f1e814103151fd196d8fd5d4fe376c0fc544599c5270dee0335f0194d7caa4f7.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+1693035089961	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:180:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://fcmenu-iad-regionalized.corp.amazon.com."
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://fcmenu-iad-regionalized.corp.amazon.com."
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://aft-qt-na.aka.amazon.com."
+Port.onMessage event fired while context is inactive.
+SourceActor threw an exception: Error: Failed to fetch http://aft-qt-na.aka.amazon.com/app/deleteitems?experience=Desktop. Code 2152398879.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:600:16
+onStopRequest@resource://gre/modules/NetUtil.sys.mjs:124:18
+Line: 600, column: 16
+console.error: (new Error("Failed to fetch http://aft-qt-na.aka.amazon.com/app/deleteitems?experience=Desktop. Code 2152398879.", "resource://devtools/shared/DevToolsUtils.js", 600))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 600: Error: Failed to fetch http://aft-qt-na.aka.amazon.com/app/deleteitems?experience=Desktop. Code 2152398879.
+1693035877788	Marionette	INFO	Stopped listening on port 54400
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1693036054827	geckodriver	INFO	Listening on 127.0.0.1:55104
+1693036057896	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55105" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofilevuWI5F"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693036058762	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693036058852	Marionette	INFO	Listening on port 55112
+WebDriver BiDi listening on ws://127.0.0.1:55105
+Read port: 55112
+1693036058990	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:55105/devtools/browser/713492e6-7d51-45bf-af65-4225dd161ccd
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://austin-ehs-prod.auth.us-east-1.amazoncognito.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://austin-ehs-prod.auth.us-east-1.amazoncognito.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+JavaScript warning: https://midway-auth.amazon.com/assets/application-f1e814103151fd196d8fd5d4fe376c0fc544599c5270dee0335f0194d7caa4f7.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+1693036086482	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:180:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://fcmenu-iad-regionalized.corp.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://fcmenu-iad-regionalized.corp.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://aft-qt-na.aka.amazon.com."
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://na.ehs-amazon.com."
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+1693037279809	Marionette	INFO	Stopped listening on port 55112
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1693037295185	geckodriver	INFO	Listening on 127.0.0.1:56394
+1693037298252	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56395" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofilefqCvbr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693037299070	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693037299169	Marionette	INFO	Listening on port 56402
+WebDriver BiDi listening on ws://127.0.0.1:56395
+Read port: 56402
+1693037299311	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:56395/devtools/browser/864f39fc-5fc6-43f8-958d-d98bb3d566ae
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://austin-ehs-prod.auth.us-east-1.amazoncognito.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://austin-ehs-prod.auth.us-east-1.amazoncognito.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+JavaScript warning: https://midway-auth.amazon.com/assets/application-f1e814103151fd196d8fd5d4fe376c0fc544599c5270dee0335f0194d7caa4f7.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+1693037324148	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:180:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://fcmenu-iad-regionalized.corp.amazon.com."
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://fcmenu-iad-regionalized.corp.amazon.com."
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://fcresearch-na.aka.amazon.com."
+Port.onMessage event fired while context is inactive.
+1693037492443	Marionette	INFO	Stopped listening on port 56402
+Dynamically enable window occlusion 1
+1693037900424	geckodriver	INFO	Listening on 127.0.0.1:52483
+1693037903457	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52484" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofileYanDjs"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693037904214	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693037904304	Marionette	INFO	Listening on port 52491
+WebDriver BiDi listening on ws://127.0.0.1:52484
+Read port: 52491
+1693037904437	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:52484/devtools/browser/0c50668b-ccfb-483a-a753-69562bad5ed3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://austin-ehs-prod.auth.us-east-1.amazoncognito.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://austin-ehs-prod.auth.us-east-1.amazoncognito.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+JavaScript warning: https://midway-auth.amazon.com/assets/application-f1e814103151fd196d8fd5d4fe376c0fc544599c5270dee0335f0194d7caa4f7.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+1693037928419	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:180:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://fcmenu-iad-regionalized.corp.amazon.com."
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://fcmenu-iad-regionalized.corp.amazon.com."
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://fcresearch-na.aka.amazon.com."
+Port.onMessage event fired while context is inactive.
+1693038221792	Marionette	INFO	Stopped listening on port 52491
+Dynamically enable window occlusion 1
+1693038237967	geckodriver	INFO	Listening on 127.0.0.1:52712
+1693038241035	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52713" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofileztdGBR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693038241837	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693038241927	Marionette	INFO	Listening on port 52720
+WebDriver BiDi listening on ws://127.0.0.1:52713
+Read port: 52720
+1693038242199	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:52713/devtools/browser/5702e90e-6ce7-46fc-b315-54193a9dd0ef
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://austin-ehs-prod.auth.us-east-1.amazoncognito.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://austin-ehs-prod.auth.us-east-1.amazoncognito.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+JavaScript warning: https://midway-auth.amazon.com/assets/application-f1e814103151fd196d8fd5d4fe376c0fc544599c5270dee0335f0194d7caa4f7.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+1693038265633	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:180:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://fcmenu-iad-regionalized.corp.amazon.com."
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://fcmenu-iad-regionalized.corp.amazon.com."
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://fcresearch-na.aka.amazon.com."
+Port.onMessage event fired while context is inactive.
+1693039122911	Marionette	INFO	Stopped listening on port 52720
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1693039139301	geckodriver	INFO	Listening on 127.0.0.1:53152
+1693039142351	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53153" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofilelits3Z"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693039143357	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693039143448	Marionette	INFO	Listening on port 53161
+WebDriver BiDi listening on ws://127.0.0.1:53153
+Read port: 53161
+1693039143708	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:53153/devtools/browser/506baf5c-88c2-4b0a-a6ed-afae87001d62
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://austin-ehs-prod.auth.us-east-1.amazoncognito.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://austin-ehs-prod.auth.us-east-1.amazoncognito.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+JavaScript warning: https://midway-auth.amazon.com/assets/application-f1e814103151fd196d8fd5d4fe376c0fc544599c5270dee0335f0194d7caa4f7.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+1693039168214	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:180:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://fcmenu-iad-regionalized.corp.amazon.com."
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://fcmenu-iad-regionalized.corp.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://fcresearch-na.aka.amazon.com."
+Port.onMessage event fired while context is inactive.
+1693039274665	Marionette	INFO	Stopped listening on port 53161
+Dynamically enable window occlusion 1

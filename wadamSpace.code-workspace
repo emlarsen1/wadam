@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"cSpell.words": [
+			"badgeid",
+			"Creds",
+			"customtkinter",
+			"deleteitems",
+			"linktext",
+			"LOCALAPPDATA",
+			"padx",
+			"pady",
+			"pandash",
+			"siteid",
+			"wasteprocessing"
+		],
+		"[python]": {
+			"editor.defaultFormatter": "ms-python.autopep8"
+		},
+		"python.formatting.provider": "none"
+	}
+}
