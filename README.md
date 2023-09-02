@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-
+[![GitHub Stars](https://img.shields.io/github/stars/emlarsen1/wadam.svg)](https://github.com/emlarsen1/wadam/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/emlarsen1/wadam.svg)](https://github.com/emlarsen1/wadam/issues) [![Current Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/emlarsen1/wadam) [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://igorantun.com/chat) 
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -136,6 +136,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
+- [ ] Remove print statements and add logging information
 - [ ] Cached lookups
 - [ ] Synchronized databases
 
