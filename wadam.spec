@@ -8,7 +8,7 @@ a = Analysis(
     ['C:/Users/markllar/Documents/projects/wadam/wadam.py'],
     pathex=[],
     binaries=[],
-    datas=[('C:/Users/markllar/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/site-packages/CTkMessagebox', 'CTkMessagebox/'), ('C:/Users/markllar/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/site-packages/customtkinter', 'customtkinter/'), ('C:/Users/markllar/Documents/projects/wadam/wadam.db', '.'), ('C:/Users/markllar/Documents/projects/wadam/wadam.ico', '.')],
+    datas=[('C:/Users/markllar/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/site-packages/CTkMessagebox', 'CTkMessagebox/'), ('C:/Users/markllar/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/site-packages/customtkinter', 'customtkinter/'), ('C:/Users/markllar/Documents/projects/wadam/wadam.db', '.'), ('C:/Users/markllar/Documents/projects/wadam/images/wadam.ico', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -37,7 +37,7 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['C:\\Users\\markllar\\Documents\\projects\\wadam\\wadam.ico'],
+    icon=['C:\\Users\\markllar\\Documents\\projects\\wadam\\images\\wadam.ico'],
 )
 coll = COLLECT(
     exe,
