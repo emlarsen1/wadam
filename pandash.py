@@ -147,9 +147,7 @@ class panDashPage():
                             len(self.limited_quantity_guidance) > 0:
                         self.donatable = True
 
-                        # self.setResultMessage()
                     return self.level
 
                 else:
-                    # self.setResultMessage()
                     return self.level
