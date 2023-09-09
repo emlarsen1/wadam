@@ -5,10 +5,10 @@ block_cipher = None
 
 
 a = Analysis(
-    ['C:/Users/markllar/Documents/projects/wadam/wadam.py'],
+    ['C:/Users/markllar/Documents/projects/wadm/wadm.py'],
     pathex=[],
     binaries=[],
-    datas=[('C:/Users/markllar/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/site-packages/CTkMessagebox', 'CTkMessagebox/'), ('C:/Users/markllar/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/site-packages/customtkinter', 'customtkinter/'), ('C:/Users/markllar/Documents/projects/wadam/wadam.db', '.'), ('C:/Users/markllar/Documents/projects/wadam/images/wadam.ico', '.')],
+    datas=[('C:/Users/markllar/Documents/projects/wadm/.venv/Lib/site-packages/CTkMessagebox', 'CTkMessagebox/'), ('C:/Users/markllar/Documents/projects/wadm/.venv/Lib/site-packages/customtkinter', 'customtkinter/'), ('C:/Users/markllar/Documents/projects/wadm/wadm.db', '.'), ('C:/Users/markllar/Documents/projects/wadm/images/wadm.ico', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -26,7 +26,7 @@ exe = EXE(
     a.scripts,
     [],
     exclude_binaries=True,
-    name='wadam',
+    name='wadm',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -37,7 +37,7 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['C:\\Users\\markllar\\Documents\\projects\\wadam\\images\\wadam.ico'],
+    icon=['C:\\Users\\markllar\\Documents\\projects\\wadm\\images\\wadm.ico'],
 )
 coll = COLLECT(
     exe,
@@ -47,5 +47,5 @@ coll = COLLECT(
     strip=False,
     upx=True,
     upx_exclude=[],
-    name='wadam',
+    name='wadm',
 )

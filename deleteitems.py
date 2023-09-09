@@ -28,7 +28,7 @@ class delPage():
         self.user_pass = userCreds.userPassword
         self.user_badgeid = userCreds.userBadgeID
         self.vars = {}
-        self.wait = WebDriverWait(self.driver, 30)
+        self.wait = WebDriverWait(self.driver, 10)
 
     def Open(self):
 

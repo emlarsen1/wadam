@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-[![GitHub Stars](https://img.shields.io/github/stars/emlarsen1/wadam.svg)](https://github.com/emlarsen1/wadam/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/emlarsen1/wadam.svg)](https://github.com/emlarsen1/wadam/issues) [![Current Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/emlarsen1/wadam) [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://igorantun.com/chat) 
+[![GitHub Stars](https://img.shields.io/github/stars/emlarsen1/wadm.svg)](https://github.com/emlarsen1/wadm/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/emlarsen1/wadm.svg)](https://github.com/emlarsen1/wadm/issues) [![Current Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/emlarsen1/wadm) [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://igorantun.com/chat) 
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -22,11 +22,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/emlarsen1/wadam">
-    <img src="images/wadam.ico" alt="Logo" width="80" height="80">
+  <a href="https://github.com/emlarsen1/wadm">
+    <img src="images/wadm.ico" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">WADAM Processing Assistant</h3>
+<h3 align="center">wadm Processing Assistant</h3>
 
   <p align="center">
     Amazon uses a fairly complicated method to determine is damaged or returned items can be donated to charities, 
@@ -36,11 +36,11 @@
     <a href="https://github.com/emlarsen1"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/emlarsen1/wadam">View Demo</a>
+    <a href="https://github.com/emlarsen1/wadm">View Demo</a>
     ·
-    <a href="https://github.com/emlarsen1/wadam/issues">Report Bug</a>
+    <a href="https://github.com/emlarsen1/wadm/issues">Report Bug</a>
     ·
-    <a href="https://github.com/emlarsen1/wadam/issues">Request Feature</a>
+    <a href="https://github.com/emlarsen1/wadm/issues">Request Feature</a>
   </p>
 </div>
 
@@ -79,7 +79,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `emlarsen1`, `wadam`, `imarklarsen`, `linkedin_username`, `email_client`, `mlarsen@msn.com`, `WADAM Process Assitant`, `project_description`
+Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `emlarsen1`, `wadm`, `imarklarsen`, `linkedin_username`, `email_client`, `mlarsen@msn.com`, `wadm Process Assitant`, `project_description`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,7 +114,7 @@ The process assitant requires Firefox browser to be installed.
 
 Clone the repo
    ```sh
-   git clone https://github.com/emlarsen1/wadam.git
+   git clone https://github.com/emlarsen1/wadm.git
    ```
    ```
 
@@ -140,7 +140,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Cached lookups
 - [ ] Synchronized databases
 
-See the [open issues](https://github.com/emlarsen1/wadam/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/emlarsen1/wadm/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -178,7 +178,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Your Name - [@imarklarsen](https://twitter.com/imarklarsen) - mlarsen@msn.com@mlarsen@msn.com_client.com
 
-Project Link: [https://github.com/emlarsen1/wadam](https://github.com/emlarsen1/wadam)
+Project Link: [https://github.com/emlarsen1/wadm](https://github.com/emlarsen1/wadm)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -186,16 +186,16 @@ Project Link: [https://github.com/emlarsen1/wadam](https://github.com/emlarsen1/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/emlarsen1/wadam.svg?style=for-the-badge
-[contributors-url]: https://github.com/emlarsen1/wadam/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/emlarsen1/wadam.svg?style=for-the-badge
-[forks-url]: https://github.com/emlarsen1/wadam/network/members
-[stars-shield]: https://img.shields.io/github/stars/emlarsen1/wadam.svg?style=for-the-badge
-[stars-url]: https://github.com/emlarsen1/wadam/stargazers
-[issues-shield]: https://img.shields.io/github/issues/emlarsen1/wadam.svg?style=for-the-badge
-[issues-url]: https://github.com/emlarsen1/wadam/issues
-[license-shield]: https://img.shields.io/github/license/emlarsen1/wadam.svg?style=for-the-badge
-[license-url]: https://github.com/emlarsen1/wadam/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/emlarsen1/wadm.svg?style=for-the-badge
+[contributors-url]: https://github.com/emlarsen1/wadm/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/emlarsen1/wadm.svg?style=for-the-badge
+[forks-url]: https://github.com/emlarsen1/wadm/network/members
+[stars-shield]: https://img.shields.io/github/stars/emlarsen1/wadm.svg?style=for-the-badge
+[stars-url]: https://github.com/emlarsen1/wadm/stargazers
+[issues-shield]: https://img.shields.io/github/issues/emlarsen1/wadm.svg?style=for-the-badge
+[issues-url]: https://github.com/emlarsen1/wadm/issues
+[license-shield]: https://img.shields.io/github/license/emlarsen1/wadm.svg?style=for-the-badge
+[license-url]: https://github.com/emlarsen1/wadm/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png

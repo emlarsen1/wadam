@@ -27,7 +27,7 @@ class cfg():
         self.ypos = str(10)
         self.localAppData = str(os.getenv("LOCALAPPDATA"))
 
-        iniFile = os.path.join(self.localAppData, "WADAM", "wadam.ini")
+        iniFile = os.path.join(self.localAppData, "WADM", "wadm.ini")
         print(iniFile)
         if path.isfile(iniFile):
             print('ini file exists')
@@ -77,11 +77,11 @@ class cfg():
             self.config.set("appInfo", 'ypos', str(0))
 
             # SAVE CONFIG FILE
-            appDirectory = "WADAM"
+            appDirectory = "WADM"
             parentDirectory = str(os.getenv('LOCALAPPDATA'))
             appPath = os.path.join(parentDirectory, appDirectory)
             os.mkdir(appPath)
-            iniFile = str(os.path.join(appPath, "wadam.ini"))
+            iniFile = str(os.path.join(appPath, "wadm.ini"))
             print(iniFile)
             with open(iniFile, 'w') as configfileObj:
                 self.config.write(configfileObj)
@@ -117,7 +117,7 @@ class cfg():
         self.config.set("userInfo", 'siteid', str(dlgSiteID))
 
         iniFile = os.path.join(
-            str(os.getenv('LOCALAPPDATA')), "WADAM", "wadam.ini")
+            str(os.getenv('LOCALAPPDATA')), "WADM", "wadm.ini")
         with open(iniFile, 'w') as cfgFile:
             self.config.write(cfgFile)
 
@@ -127,7 +127,7 @@ class cfg():
         self.config.set("appInfo", 'ypos', ypos)
 
         iniFile = os.path.join(
-            str(os.getenv('LOCALAPPDATA')), "WADAM", "wadam.ini")
+            str(os.getenv('LOCALAPPDATA')), "WADM", "wadm.ini")
         with open(iniFile, 'w') as cfgFile:
             self.config.write(cfgFile)
 
@@ -155,7 +155,7 @@ class cfg():
         # Save the config file
         try:
             iniFile = os.path.join(
-                str(os.getenv('LOCALAPPDATA')), "WADAM", "wadam.ini")
+                str(os.getenv('LOCALAPPDATA')), "WADM", "wadm.ini")
             with open(iniFile, 'w') as cfgFile:
                 self.config.write(cfgFile)
             return True
@@ -164,5 +164,5 @@ class cfg():
             return False
 
     def openConfig(self):
-        osCommandString = f"notepad.exe {os.path.join(str(os.getenv('LOCALAPPDATA')), 'WADAM', 'wadam.ini')}"
+        osCommandString = f"notepad.exe {os.path.join(str(os.getenv('LOCALAPPDATA')), 'WADM', 'wadm.ini')}"
         os.system(osCommandString)
