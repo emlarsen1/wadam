@@ -150,4 +150,6 @@ class panDashPage():
                     return self.level
 
                 else:
+                    if self.level == 'level1' and self.htrc == 0:
+                        self.donatable = True
                     return self.level

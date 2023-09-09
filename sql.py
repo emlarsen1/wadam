@@ -14,7 +14,7 @@ import pandas as pd
 class db():
 
     def __init__(self):
-        self.conn = sqlite3.connect('wadam.db')
+        self.conn = sqlite3.connect('wadm.db')
         self.cursor = self.conn.cursor()
 
     def update_bannedASIN(self):

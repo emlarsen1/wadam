@@ -205,27 +205,34 @@ class delPage():
             # service timeout error look for an alert message or
             # a service timeout error or
             # a radio button showing items available to delete
-            css_search_elements = f"{Locators.delAlertMsg_text_CSSSel}, \
-                {Locators.delServiceFail_text_CSSSel}, \
-                    {Locators.delItemList_radio_CSSSel}"
-            element = self.wait.until(EC.visibility_of_element_located(
-                (By.CSS_SELECTOR, css_search_elements)))
+            # css_search_elements = f"{Locators.delInlineAlertMsg_text_CSSSel}"
+            # {Locators.delItemList_radio_CSSSel}, \
+            #     {Locators.delAlertHeaderRegulated_text_CSSSel}"
+            # {Locators.delServiceFail_text_CSSSel}"
+            time.sleep(2)
+            element = self.wait.until(EC.any_of(EC.presence_of_element_located((By.CLASS_NAME, Locators.delInlineAlertMsg_text_Class_Name)),
+                                                EC.presence_of_element_located(
+                                                    (By.CLASS_NAME, Locators.delItemList_radio_Class_Name)),
+                                                EC.presence_of_element_located(
+                                                    (By.CLASS_NAME,
+                                                     Locators.delAlertHeaderRegulated_text_Class_Name)
+            )
+            )
+            )
 
             print(F"Element text found: {element.text}")
             print(f"class name: {element.get_attribute('class')}")
-            if element.text == f"Container {containerId} is empty.":
-                print(f"Container {containerId} is empty.")
+            if Locators.delInlineAlertMsg_text_Class_Name in element.get_attribute('class'):
+                print(element.text)
                 return containerId
-            elif element.text == f"Input {containerId} is not a valid container.":
-                print(f"Input {containerId} is not a valid container.")
-                return containerId
-            elif element.text == "The service failed to process your request":
-                time.sleep(2)
-                self.searchContainer(containerId)
-            elif element.get_attribute("class") == "a-icon a-icon-radio":
+            elif Locators.delAlertHeaderRegulated_text_Class_Name in element.get_attribute('class')\
+                    or Locators.delItemList_radio_Class_Name in element.get_attribute('class'):
                 # Container is not empty delete the items from the container
                 print("-> deleteItems")
-                # time.sleep(2)
+                self.deleteItems()
+                return containerId
+            else:
+                print("else -> deleteItems")
                 self.deleteItems()
                 return containerId
 

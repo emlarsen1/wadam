@@ -296,6 +296,7 @@ class MainWindow(ctk.CTkFrame):
                         self.austin.setStatusColor('denali', denali_result)
                         self.austin.setStatusIndicator(
                             self.panDash.get_pandash_results())
+                        print(self.panDash.get_pandash_results())
 
                         print("look up in CSIs")
                         csi_recall_result = self.csiRecall.searchASIN(ASIN)

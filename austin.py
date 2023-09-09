@@ -129,7 +129,8 @@ class AUSTINPage():
                         {regResult}"
 
         # add hazardous donation information if donatable
-        if pandash_results[0] and self.denaliColor == '#33CC02':
+        if pandash_results[0] and self.denaliColor == '#33CC02' \
+                and pandash_results[1] > 0.0:
             c = c + \
                 f"<span style=font-size:25px;color:blue;><br>Haz Donatable  \
                 <br>HazClass: {pandash_results[1]}  <br>UN: {pandash_results[3]} \

@@ -62,7 +62,9 @@ class Locators():
     delContainerMode_radio_CSSSel = '.a-box:nth-child(2) .a-icon'
     delSingleMode_radio_CSSSel = '.a-box:nth-child(1) .a-icon'
     delAlertMsg_text_CSSSel = '.a-alert-content'
-    delItemList_radio_CSSSel = 'a-icon a-icon-radio'
+    delInlineAlertMsg_text_Class_Name = "a-alert-inline"
+    delAlertHeaderRegulated_text_Class_Name = "a-alert-warning"
+    delItemList_radio_Class_Name = 'a-icon-radio'
     delUserMenu_linktext_CSSSel = 'User menu (m)'
     delEnter_button_CSSSel = '.a-button-input'
     delChangeContainer_Button_CSSSel = "#a-autoid-2 > span:nth-child(1) > input:nth-child(1)"
