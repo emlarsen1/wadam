@@ -10,6 +10,7 @@ from locators import Locators
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import sql as scans
 
 
 class AUSTINPage():
@@ -177,6 +178,37 @@ class AUSTINPage():
 
         element = self.driver.find_element(By.CSS_SELECTOR, "#productId")
         element.click()
+
+    def set_scan_type(self, scan_type: "Product"):
+        element = self.driver.find_element(
+            By.CSS_SELECTOR, f"input[value={scan_type}]").click()
+        if element:
+            return True
+        else:
+            return False
+
+    def search_container(self, container_id):
+        try:
+            # TODO: add the container search function
+
+            print("wait to see if we get a container with items")
+            # Check if we get a container with items or and empty container
+            css_search_elements = f"{Locators.container_found_CSSSel}, \
+                {Locators.container_empty_CSSSel}"
+            element = self.wait.until(EC.visibility_of_element_located(
+                (By.CSS_SELECTOR, css_search_elements)))
+
+            print(F"Element text found: {element.text}")
+            # container found
+            if element.text[:6] == "[Tote]":
+                return str(container_id)
+            # If the container is empty, then return.
+            elif element.text[:19] == "This tote is empty.":
+                return "empty_container"
+
+        except NoSuchElementException:
+            print("Container not found")
+            return str(container_id)
 
     def setWasteContainerTab(self):
         # if the user is clicked on donations login then automatically select the tab for

@@ -1,0 +1,282 @@
+1694233429499	geckodriver	INFO	Listening on 127.0.0.1:56404
+1694233432453	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56405" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofileIeex0d"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694233433308	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694233433404	Marionette	INFO	Listening on port 56413
+WebDriver BiDi listening on ws://127.0.0.1:56405
+Read port: 56413
+1694233433541	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:56405/devtools/browser/ba14ce30-c389-4850-be90-438568ab4768
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://austin-ehs-prod.auth.us-east-1.amazoncognito.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://austin-ehs-prod.auth.us-east-1.amazoncognito.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+JavaScript warning: https://midway-auth.amazon.com/assets/application-1bd4f81f7b749658cdbf9c672c84c0a43e1bacc00e72ad7f9421edb2d656037d.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+1694233457662	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:180:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://fcmenu-iad-regionalized.corp.amazon.com."
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://fcmenu-iad-regionalized.corp.amazon.com."
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://aft-qt-na.aka.amazon.com."
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+1694233615534	Marionette	INFO	Stopped listening on port 56413
+Dynamically enable window occlusion 1
+[Parent 6868, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:793
+1694234649000	geckodriver	INFO	Listening on 127.0.0.1:63988
+1694234651996	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63989" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofileibekIB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694234652829	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694234652918	Marionette	INFO	Listening on port 63996
+WebDriver BiDi listening on ws://127.0.0.1:63989
+Read port: 63996
+1694234653199	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:63989/devtools/browser/7993f889-ebdf-45ba-b247-de077789247e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://austin-ehs-prod.auth.us-east-1.amazoncognito.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://austin-ehs-prod.auth.us-east-1.amazoncognito.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+JavaScript warning: https://midway-auth.amazon.com/assets/application-1bd4f81f7b749658cdbf9c672c84c0a43e1bacc00e72ad7f9421edb2d656037d.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+1694234677608	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:180:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://fcmenu-iad-regionalized.corp.amazon.com."
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://fcmenu-iad-regionalized.corp.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://aft-qt-na.aka.amazon.com."
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+1694234792689	Marionette	INFO	Stopped listening on port 63996
+Dynamically enable window occlusion 1
+1694486340171	geckodriver	INFO	Listening on 127.0.0.1:64389
+1694486343187	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64390" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofileCopQ2j"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694486344120	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694486344228	Marionette	INFO	Listening on port 64398
+WebDriver BiDi listening on ws://127.0.0.1:64390
+Read port: 64398
+1694486344474	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:64390/devtools/browser/07be4fb8-6f7e-4f6e-a6c9-24b0ab670172
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://austin-ehs-prod.auth.us-east-1.amazoncognito.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://austin-ehs-prod.auth.us-east-1.amazoncognito.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+JavaScript warning: https://midway-auth.amazon.com/assets/application-1bd4f81f7b749658cdbf9c672c84c0a43e1bacc00e72ad7f9421edb2d656037d.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+1694486368296	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:180:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://fcmenu-iad-regionalized.corp.amazon.com."
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+JavaScript error: https://fcmenu-iad-regionalized.corp.amazon.com/resources/javascript/speechSupport.js?veee4d483f0e1db25b4b366fd2c831866, line 1: SyntaxError: redeclaration of const INVALID_TTS_LOCALES
+JavaScript error: https://fcmenu-iad-regionalized.corp.amazon.com/resources/javascript/new/menu.js?veee4d483f0e1db25b4b366fd2c831866, line 87: ReferenceError: enableSpeechForElements is not defined
+JavaScript error: https://fcmenu-iad-regionalized.corp.amazon.com/resources/javascript/new/menu.js?veee4d483f0e1db25b4b366fd2c831866, line 87: ReferenceError: enableSpeechForElements is not defined
+Port.onMessage event fired while context is inactive.
+JavaScript error: https://fcmenu-iad-regionalized.corp.amazon.com/resources/javascript/speechSupport.js?veee4d483f0e1db25b4b366fd2c831866, line 1: SyntaxError: redeclaration of const INVALID_TTS_LOCALES
+JavaScript error: https://fcmenu-iad-regionalized.corp.amazon.com/resources/javascript/speechSupport.js?veee4d483f0e1db25b4b366fd2c831866, line 1: SyntaxError: redeclaration of const INVALID_TTS_LOCALES
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.media-amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://fcresearch-na.aka.amazon.com."
+Port.onMessage event fired while context is inactive.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.media-amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.media-amazon.com."
+1694491097144	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.media-amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.media-amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.media-amazon.com."
+JavaScript warning: https://www.amazon.com/ line 2417 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/, line 2457: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://m.media-amazon.com/images/I/81PUvRgN2sL.js?AUIClients/FWCIMAssets, line 298: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Port.onMessage event fired while context is inactive.
+JavaScript warning: https://www.amazon.com/s?k=linen+mist+spray&crid=1WBU1EKIGVOCW&sprefix=linen+mist%2Caps%2C214&ref=nb_sb_ss_ts-doa-p_3_10 line 9985 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/s?k=linen+mist+spray&crid=1WBU1EKIGVOCW&sprefix=linen+mist%2Caps%2C214&ref=nb_sb_ss_ts-doa-p_3_10, line 10025: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Port.onMessage event fired while context is inactive.
+JavaScript warning: https://www.amazon.com/DRMTLGY-Natural-Essential-Aromatherapy-Relaxation/dp/B09DKJ3T1K/ref=sr_1_2?crid=1WBU1EKIGVOCW&keywords=linen%2Bmist%2Bspray&qid=1694492007&sprefix=linen%2Bmist%2Caps%2C214&sr=8-2&th=1 line 10300 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/DRMTLGY-Natural-Essential-Aromatherapy-Relaxation/dp/B09DKJ3T1K/ref=sr_1_2?crid=1WBU1EKIGVOCW&keywords=linen%2Bmist%2Bspray&qid=1694492007&sprefix=linen%2Bmist%2Caps%2C214&sr=8-2&th=1, line 10340: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1694492034443	Marionette	INFO	Stopped listening on port 64398
+Dynamically enable window occlusion 1
+[Parent 16024, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:793
+1694492045182	geckodriver	INFO	Listening on 127.0.0.1:51283
+1694492048186	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51284" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofile2eCwU3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694492049134	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694492049233	Marionette	INFO	Listening on port 51293
+WebDriver BiDi listening on ws://127.0.0.1:51284
+Read port: 51293
+1694492049342	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:51284/devtools/browser/7f0b1d67-c9b2-4d65-b4eb-7cdb70982514
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://austin-ehs-prod.auth.us-east-1.amazoncognito.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://austin-ehs-prod.auth.us-east-1.amazoncognito.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+JavaScript warning: https://midway-auth.amazon.com/assets/application-1bd4f81f7b749658cdbf9c672c84c0a43e1bacc00e72ad7f9421edb2d656037d.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+1694492074205	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:180:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://fcmenu-iad-regionalized.corp.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.media-amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.media-amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.media-amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.media-amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.media-amazon.com."
+[Parent 19044, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:793
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.media-amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.media-amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.media-amazon.com."
+1694494737741	Marionette	INFO	Stopped listening on port 51293
+Dynamically enable window occlusion 1
+1694500864048	geckodriver	INFO	Listening on 127.0.0.1:56676
+1694500867046	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56677" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\markllar\\AppData\\Local\\Temp\\rust_mozprofilekxL0Wr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694500867930	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694500868033	Marionette	INFO	Listening on port 56685
+Read port: 56685
+WebDriver BiDi listening on ws://127.0.0.1:56677
+1694500868153	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/TelemetryUtils.sys.mjs, line 143: TypeError: date is undefined
+DevTools listening on ws://127.0.0.1:56677/devtools/browser/234dfd1d-e438-49b6-ab8a-64e19f0c462a
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://austin-ehs-prod.auth.us-east-1.amazoncognito.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://austin-ehs-prod.auth.us-east-1.amazoncognito.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+JavaScript warning: https://midway-auth.amazon.com/assets/application-1bd4f81f7b749658cdbf9c672c84c0a43e1bacc00e72ad7f9421edb2d656037d.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://midway-auth.amazon.com."
+1694500894309	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:180:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://fcmenu-iad-regionalized.corp.amazon.com."
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+1694500911013	Marionette	INFO	Stopped listening on port 56685
+Dynamically enable window occlusion 1
