@@ -29,6 +29,7 @@ class delPage():
         self.user_badgeid = userCreds.userBadgeID
         self.vars = {}
         self.wait = WebDriverWait(self.driver, 10)
+        self.alert_present = False
 
     def Open(self):
 
@@ -187,17 +188,72 @@ class delPage():
                 print("Container not empty")
                 return
 
+    # def get_container_response(self, containerId, alert_msg=""):
+    #     element = self.wait.until(EC.any_of(EC.presence_of_element_located((By.CLASS_NAME, Locators.delInlineAlertMsg_text_Class_Name)),
+    #                                         EC.presence_of_element_located(
+    #         (By.CLASS_NAME, Locators.delItemList_radio_Class_Name)),
+    #         EC.presence_of_element_located(
+    #         (By.CLASS_NAME,
+    #          Locators.delAlertHeaderRegulated_text_Class_Name)
+    #     )
+    #     )
+    #     )
+
+    #     print(F"Element text found: {element.text}")
+    #     print(f"class name: {element.get_attribute('class')}")
+
+    #     # check to see if there is an alert and if it changed.
+    #     try:
+    #         if Locators.delInlineAlertMsg_text_Class_Name in element.get_attribute('class'):
+    #             print(element.text)
+
+    #             # if it has a previous alert then get the string when it changes.
+    #             if self.alert_present and alert_msg != element.text:
+    #                 if element.text == "Container confirmed is empty." or element.text == f"Container {containerId} is empty.":
+    #                     return "empty_container"
+    #             elif self.alert_present and alert_msg == element.text:
+    #                 return "waiting"
+
+    #             element = self.driver.find_element(
+    #                 By.CLASS_NAME, Locators.delInlineAlertMsg_text_Class_Name)
+    #                 return element
+    #             elif element.text == "Container confirmed is empty." or element.text == f"Container {containerId} is empty." and not self.alert_present:
+    #                 return "empty"
+    #     except NoSuchElementException:
+    #         try:
+    #             if Locators.delAlertHeaderRegulated_text_Class_Name in element.get_attribute('class')\
+    #                     or Locators.delItemList_radio_Class_Name in element.get_attribute('class'):
+
+    #                 # Container is not empty delete the items from the container
+    #                 print("-> deleteItems")
+    #                 self.deleteItems()
+    #             return containerId
+    #         except NoSuchElementException as e:
+    #             return "no_alert"
+
     def searchContainer(self, containerId):
+
         try:
+            self.alert_msg = str()
             self.driver.switch_to.window(self.tabName)
             print("del search")
-
+            self.alert_present = False
             # Find the search field and enter the container id into it
             # and press enter.
             element = self.wait.until(EC.element_to_be_clickable(
                 (By.CSS_SELECTOR, self.delDeleteContainer_textbox_CSSSel)))
             print(f"entering Container ID: {containerId}")
             element.send_keys(containerId)
+
+            # check if there has been a previous alert message
+            try:
+                element = self.driver.find_element(
+                    By.CLASS_NAME, Locators.delInlineAlertMsg_text_Class_Name)
+                self.alert_present = True
+                self.alert_msg = element.text
+            except NoSuchElementException:
+                self.alert_present = False
+
             self.wait.until(EC.element_to_be_clickable(
                 (By.CSS_SELECTOR, Locators.delEnter_button_CSSSel))).click()
 
@@ -209,32 +265,58 @@ class delPage():
             # {Locators.delItemList_radio_CSSSel}, \
             #     {Locators.delAlertHeaderRegulated_text_CSSSel}"
             # {Locators.delServiceFail_text_CSSSel}"
-            time.sleep(2)
-            element = self.wait.until(EC.any_of(EC.presence_of_element_located((By.CLASS_NAME, Locators.delInlineAlertMsg_text_Class_Name)),
-                                                EC.presence_of_element_located(
-                                                    (By.CLASS_NAME, Locators.delItemList_radio_Class_Name)),
-                                                EC.presence_of_element_located(
-                                                    (By.CLASS_NAME,
-                                                     Locators.delAlertHeaderRegulated_text_Class_Name)
-            )
-            )
-            )
 
-            print(F"Element text found: {element.text}")
-            print(f"class name: {element.get_attribute('class')}")
-            if Locators.delInlineAlertMsg_text_Class_Name in element.get_attribute('class'):
-                print(element.text)
-                return containerId
-            elif Locators.delAlertHeaderRegulated_text_Class_Name in element.get_attribute('class')\
-                    or Locators.delItemList_radio_Class_Name in element.get_attribute('class'):
+            # self.wait = 10
+            try:
+
+                self.wait.until(EC.text_to_be_present_in_element(
+                    (By.CSS_SELECTOR, Locators.delHeaderMessage_text_CSSSel),
+                    "Select item to delete"))
+                print("found Select item to delete")
+
                 # Container is not empty delete the items from the container
                 print("-> deleteItems")
                 self.deleteItems()
                 return containerId
-            else:
-                print("else -> deleteItems")
-                self.deleteItems()
-                return containerId
+
+            except NoSuchElementException:
+
+                print("header Select item to delete not found")
+                try:
+                    element = self.driver.find_element(
+                        By.CLASS_NAME, Locators.delInlineAlertMsg_text_Class_Name)
+
+                    if element.text == "Container confirmed is empty." or element.text == f"Container {containerId} is empty.":
+                        print(element.text)
+                        return containerId
+
+                except NoSuchElementException:
+                    print("No empty alert message")
+
+            # self.wait.until(EC.presence_of_element_located(
+            #     (By.CLASS_NAME, Locators.delInlineAlertMsg_text_Class_Name)))
+
+            # element = False
+
+            # while element != "waiting" or element != "empty":
+            #     element = self.get_container_response(
+            #         containerId, self.alert_msg)
+
+            # print(F"Element text found: {element.text}")
+            # print(f"class name: {element.get_attribute('class')}")
+            # if Locators.delInlineAlertMsg_text_Class_Name in element.get_attribute('class'):
+            #     print(element.text)
+            #     return containerId
+            # elif Locators.delAlertHeaderRegulated_text_Class_Name in element.get_attribute('class')\
+            #         or Locators.delItemList_radio_Class_Name in element.get_attribute('class'):
+            #     # Container is not empty delete the items from the container
+            #     print("-> deleteItems")
+            #     self.deleteItems()
+            #     return containerId
+            # else:
+            #     print("else -> deleteItems")
+            #     self.deleteItems()
+            #     return containerId
 
         except Exception as e:
             print(f"Exception: {str(e)}")

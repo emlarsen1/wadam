@@ -33,6 +33,7 @@ class panDashPage():
         self.hazmat_exception = str("")
         self.un_classification = str("")
         self.limited_quantity_guidance = str("")
+        self.result_color = str("")
 
         self.bs = BeautifulSoup()
 
@@ -65,6 +66,13 @@ class panDashPage():
         element.send_keys(self.siteid_value_text)
         element.send_keys(Keys.TAB)
 
+    def set_pandash_results(self, result):
+        self.donatable = result[0]
+        self.hrtc = result[1]
+        self.hazmat_exception = result[2]
+        self.un_classification = result[3]
+        self.limited_quantity_guidance = result[4]
+
     def get_pandash_results(self):
         return [self.donatable, self.htrc, self.hazmat_exception,
                 self.un_classification, self.limited_quantity_guidance]
@@ -78,7 +86,6 @@ class panDashPage():
         element = self.wait.until(EC.visibility_of_element_located(
             (By.CSS_SELECTOR, '#resultMessage')))
 
-        # element = self.driver.find_element(By.CSS_SELECTOR, ("#resultMessage","#errorMessage" )
         if element is not None:
             c = ""
             self.driver.execute_script(

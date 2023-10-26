@@ -26,6 +26,9 @@ class Locators():
     asin_category_xpath = "/html/body/div/div/div/div/div/div/div[3]/div/div[3]/div/div[1]/table/tbody/tr/td/div/div/div/div/div[2]/div[2]/div/div[4]/div/div/div/div[14]/p"
     container_found_CSSSel = "h6.MuiTypography-root"
     container_empty_CSSSel = ".css-12m1n6b-emptyToteText"
+    container_input_CSSSel = "#toteId"
+    asin_input_CSSSel = "#productId"
+    item_inspector_CSSSel = ".core-1vr549o-navIconButton > svg:nth-child(1)"
 
     # PanDash page Objects
     url = 'https://pandash.amazon.com/index.jsp'

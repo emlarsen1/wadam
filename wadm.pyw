@@ -10,9 +10,10 @@ Help speed up donation processing
 """
 
 
+from re import T
 import time
 
-from selenium.webdriver.support.expected_conditions import element_attribute_to_include
+# from selenium.webdriver.support.expected_conditions import element_attribute_to_include
 from sql import db
 import signal
 from cfg_log import cfg
@@ -220,81 +221,89 @@ class MainWindow(ctk.CTkFrame):
             text="Enter the banned ASIN:", title="Banned ASIN",)
         dlgBannedASIN = dialog.get_input()
         print("Banned ASIN:", dlgBannedASIN)
-        r = banned.addBanned(dlgBannedASIN)
+        r = sql_db.addBanned(dlgBannedASIN)
 
-    def findItem(self, *args):
+    def findItem(self, scan='', ASIN=None):
 
-        self.austin.resetStatusIndicator()
-        self.ASIN = str()
         self.pandash_result = []
         self.denali_result = str()
         self.csi_recall_result = str()
         self.csi_reject_result = str()
-        self.barcode = str()
+        self.barcode = scan
         self.container_result = str()
+        self.cached_scan = False
 
-        self.ASIN = mw.scanCode.get().strip()
-        self.barcode = self.ASIN
-
-        # if the user enters config in the barcode scan dialog open the ini file
-        if self.ASIN == 'config':
+        if not ASIN:
+            self.ASIN = mw.scanCode.get().strip()
             mw.scanCode.delete(0, ctk.END)
+            self.barcode = self.ASIN
+        else:
+            self.ASIN = ASIN
+        print(f'Find item: {self.ASIN}')
+
+        self.austin.resetStatusIndicator()
+
+        if self.ASIN == 'config':
+            # Open the config ini file
             userCreds.openConfig()
             return
-
-        if self.ASIN == 'banned':
-            mw.scanCode.delete(0, ctk.END)
+        elif self.ASIN == 'banned':
+            # add the banned ASIN to the banned ASINs list
             self.addBannedASIN()
             return
+        elif self.ASIN[:3] == 'tsX' or self.ASIN[:6] == 'tscage':
+            # Switch to the delete items page and delete items from
+            # the container
+            self.delContainer.searchContainer(self.ASIN)
+            return True
 
-        print(f'Find item: {self.ASIN}')
-        mw.scanCode.delete(0, ctk.END)
-        if self.ASIN[:3] == 'tsX' or self.ASIN[:6] == 'tscage':
-            print(f'container {self.ASIN}')
-            # this is a container
-            # switch to container mode
-            self.austin.set_scan_type("Tote")
-            self.container_result = self.austin.search_container(self.ASIN)
-            if self.container_result == "empty_container":
-                self.delContainer.searchContainer(self.ASIN)
-            return
+        # check for previously cached scans
+        result = sql_db.get_scan(self.ASIN)
+        if result:
+            self.cached_scan = True
+            self.panDash.set_pandash_results(result[-5:])
+            self.ASIN = self.austin.searchASIN(self.ASIN)
+            self.austin.setStatusColor('Cache', result[3:7])
+            self.austin.setStatusIndicator(
+                self.panDash.get_pandash_results(), self.cached_scan)
+            return True
+
         elif self.ASIN[:3] == 'X00':
             self.ASIN = self.austin.searchASIN(self.ASIN)
-            print(f"look up FBA in pandash {self.ASIN}")
             self.pandash_result = self.panDash.search(self.ASIN)
             self.austin.setStatusColor('panDash', self.pandash_result)
-            self.austin.setStatusIndicator(self.panDash.get_pandash_results())
-            return
+            self.austin.setStatusIndicator(
+                self.panDash.get_pandash_results())
+            return True
 
+        # search for the ASIN
         self.ASIN = self.austin.searchASIN(self.ASIN)
 
-        if self.ASIN[:3] == 'LPN' or self.ASIN[:3] == 'FBA':
-            print("fcr find ASIN")
+        if self.ASIN[:3] in ['LPN', 'FBA']:
             self.ASIN = self.fcr.searchASIN(self.ASIN)
-
-            # if we find and ASIN in FC Research then search the ASIN.
             if self.ASIN is not None:
-                print(f"ASIN returned from fcr {self.ASIN}")
+                self.findItem(self.barcode, self.ASIN)
+            return True
 
-                # clear the search box and enter the ASIN
-                # that was found and search
-                mw.scanCode.delete(0, ctk.END)
-                mw.scanCode.insert(0, self.ASIN)
-                self.findItem(self.ASIN)
-        else:
+        elif self.ASIN[:2] == 'B0' or len(self.ASIN) == 10:
+            self.ASIN = self.austin.searchASIN(self.ASIN)
 
-            if banned.isBanned(self.ASIN):
+            if sql_db.isBanned(self.ASIN):
                 self.austin.setBannedStatus()
                 return
-            elif self.ASIN[:2] == 'B0':
-                print("look up in pandash")
-                pandash_result = self.panDash.search(self.ASIN)
-                self.austin.setStatusColor('panDash', self.pandash_result)
+            else:
+                self.pandash_result = self.panDash.search(self.ASIN)
+                self.panDash_result_color = self.austin.setStatusColor(
+                    'panDash', self.pandash_result)
                 self.austin.setStatusIndicator(
                     self.panDash.get_pandash_results())
+
+                # if the pandash result is level0 then return as it cannot
+                # be donated
                 if self.pandash_result == 'level0':
                     return
 
+                # if user is processing donations
                 if wasteprocessing is False:
                     print("look up in denali")
                     self.denali_result = self.denali.search(self.ASIN)
@@ -330,10 +339,161 @@ class MainWindow(ctk.CTkFrame):
 
                 self.austin.setStatusIndicator(
                     self.panDash.get_pandash_results())
-                # TODO: finish fleshing this out...
-                # add the scan to the cache table
-                # db.add_scan(self.barcode, self.ASIN, self.get_pandash_results[0], str(self.denali_result),
-                #             str(self.csi_reject_result), str(self.csi_recall_result))
+                # add the scan to the cache table if not already there
+
+        if not self.cached_scan:
+            result_colors = self.austin.get_status_colors()
+            pd_results = self.panDash.get_pandash_results()
+            print(result_colors, pd_results)
+            # pd_results.insert(0, result_colors[0])
+
+            sql_db.add_scan(self.barcode, self.ASIN,
+                            result_colors[0],
+                            result_colors[1],
+                            result_colors[2],
+                            result_colors[3],
+                            pd_results[0],
+                            pd_results[1],
+                            pd_results[2],
+                            pd_results[3],
+                            pd_results[4])
+
+        # # if the user enters config in the barcode scan dialog open the ini file
+        # if self.ASIN == 'config':
+        #     mw.scanCode.delete(0, ctk.END)
+        #     userCreds.openConfig()
+        #     return
+
+        # if self.ASIN == 'banned':
+        #     mw.scanCode.delete(0, ctk.END)
+        #     self.addBannedASIN()
+        #     return
+
+        # print(f'Find item: {self.ASIN}')
+        # mw.scanCode.delete(0, ctk.END)
+
+        # if self.ASIN[:3] == 'tsX' or self.ASIN[:6] == 'tscage':
+        #     print(f'container {self.ASIN}')
+        #     # this is a container
+        #     # switch to container mode
+        #     # self.austin.set_scan_type("Tote")
+        #     # self.container_result = self.austin.search_container(self.ASIN)
+        #     # if self.container_result == "empty_container":
+        #     self.delContainer.searchContainer(self.ASIN)
+        #     # self.austin.set_scan_type("Product")
+        #     return
+
+        # else:
+        #     # check for previously cached scans
+        #     result = sql_db.get_scan(self.ASIN)
+        #     if result:
+        #         self.cached_scan = True
+        #         self.panDash.set_pandash_results(result[-5:])
+        #         self.austin.setStatusColor('Cache', result[3:7])
+        #         self.austin.setStatusIndicator(
+        #             self.panDash.get_pandash_results(), self.cached_scan)
+        #         self.ASIN = self.austin.searchASIN(self.ASIN)
+        #         return True
+        #     elif self.ASIN[:3] == 'X00':
+        #         self.ASIN = self.austin.searchASIN(self.ASIN)
+        #         print(f"look up FBA in pandash {self.ASIN}")
+        #         self.pandash_result = self.panDash.search(self.ASIN)
+        #         self.austin.setStatusColor('panDash', self.pandash_result)
+        #         self.austin.setStatusIndicator(
+        #             self.panDash.get_pandash_results())
+        #         return
+        #     else:
+        #         self.ASIN = self.austin.searchASIN(self.ASIN)
+
+        # if self.ASIN[:3] == 'LPN' or self.ASIN[:3] == 'FBA':
+        #     print("fcr find ASIN")
+        #     self.ASIN = self.fcr.searchASIN(self.ASIN)
+
+        #     # if we find and ASIN in FC Research then search the ASIN.
+        #     if self.ASIN is not None:
+        #         print(f"ASIN returned from fcr {self.ASIN}")
+
+        #         # clear the search box and enter the ASIN
+        #         # that was found and search
+        #         mw.scanCode.delete(0, ctk.END)
+        #         mw.scanCode.insert(0, self.ASIN)
+        #         self.findItem(self.ASIN)
+        # else:
+
+        #     if sql_db.isBanned(self.ASIN):
+        #         self.austin.setBannedStatus()
+        #         return
+        #     elif self.ASIN[:2] == 'B0' or len(self.ASIN) == 10:
+        #         # # check for previously cached scans
+        #         # result = sql_db.get_scan(self.ASIN)
+        #         # if result:
+        #         #     self.cached_scan = True
+        #         #     self.panDash.set_pandash_results(result[-5:])
+        #         #     self.austin.setStatusColor('Cache', result[3:7])
+        #         #     self.austin.setStatusIndicator(
+        #         #         self.panDash.get_pandash_results(), self.cached_scan)
+        #         # else:
+        #         print("look up in pandash")
+        #         self.pandash_result = self.panDash.search(self.ASIN)
+        #         self.panDash_result_color = self.austin.setStatusColor(
+        #             'panDash', self.pandash_result)
+        #         self.austin.setStatusIndicator(
+        #             self.panDash.get_pandash_results())
+        #         if self.pandash_result == 'level0':
+        #             return
+
+        #         if wasteprocessing is False:
+        #             print("look up in denali")
+        #             self.denali_result = self.denali.search(self.ASIN)
+        #             if self.denali_result and self.panDash.is_donatable():
+        #                 # Amazon item is eligible for donation
+        #                 print(f"denali_result: {self.denali_result}")
+        #                 self.austin.setStatusColor(
+        #                     'denali', self.denali_result)
+        #                 self.austin.setStatusIndicator(
+        #                     self.panDash.get_pandash_results())
+        #                 print(self.panDash.get_pandash_results())
+
+        #                 print("look up in CSIs")
+        #                 self.csi_recall_result = self.csiRecall.searchASIN(
+        #                     self.ASIN)
+        #                 # update display
+        #                 self.austin.setStatusColor(
+        #                     'csiRecall', self.csi_recall_result)
+        #                 if self.csi_recall_result:
+        #                     self.csi_reject_result = self.csiReject.searchASIN(
+        #                         self.ASIN)
+        #                     # update display
+        #                     self.austin.setStatusColor(
+        #                         'csiReject', self.csi_reject_result)
+        #                     self.austin.Open()
+        #             else:
+        #                 # FBA item is not eligible for donation
+        #                 print(f"denali_result: {self.denali_result}")
+        #                 self.austin.setStatusColor(
+        #                     'denali', self.denali_result)
+        #                 self.austin.setStatusIndicator(
+        #                     self.panDash.get_pandash_results())
+
+        #         self.austin.setStatusIndicator(
+        #             self.panDash.get_pandash_results())
+        #         # add the scan to the cache table if not already there
+        #         if not self.cached_scan:
+        #             result_colors = self.austin.get_status_colors()
+        #             pd_results = self.panDash.get_pandash_results()
+        #             print(result_colors, pd_results)
+        #             # pd_results.insert(0, result_colors[0])
+
+        #             sql_db.add_scan(self.barcode, self.ASIN,
+        #                             result_colors[0],
+        #                             result_colors[1],
+        #                             result_colors[2],
+        #                             result_colors[3],
+        #                             pd_results[0],
+        #                             pd_results[1],
+        #                             pd_results[2],
+        #                             pd_results[3],
+        #                             pd_results[4])
 
     def create_widgets(self):
         self.scanCode = ctk.CTkEntry(
@@ -399,7 +559,7 @@ if __name__ == '__main__':
 
     # load the user credentials from the ini file
     userCreds = cfg()
-    banned = db()
+    sql_db = db()
 
     win = ctk.CTk()
     win.maxsize(450, 40)

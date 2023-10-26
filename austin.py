@@ -84,6 +84,7 @@ class AUSTINPage():
                 hazColor = 'red'
 
             self.panDashColor = hazColor
+            return self.panDashColor
             print(f'hazColor: {hazColor}')
         elif source == 'denali':
             if color:
@@ -97,6 +98,14 @@ class AUSTINPage():
             self.csiRecallColor = color
         elif source == 'csiReject':
             self.csiRejectColor = color
+        elif source == 'Cache':
+            self.panDashColor = color[0]
+            self.denaliColor = color[1]
+            self.csiRejectColor = color[2]
+            self.csiRecallColor = color[3]
+
+    def get_status_colors(self):
+        return [self.panDashColor, self.denaliColor, self.csiRejectColor, self.csiRecallColor]
 
     def setRegulatedFlag(self, flag):
         self.regulatedFlag = flag
@@ -111,17 +120,24 @@ class AUSTINPage():
         self.regulatedFlag = False
         self.setStatusIndicator([False])
 
-    def setStatusIndicator(self, pandash_results):
+    def setStatusIndicator(self, pandash_results, cached_scan=False):
         # Show a simplified go no go for donations. 4 greens is donatable
         # if any other colors are displayed then further research is required to
         # determine if it is hazardous or not.
+        c = str()
 
         self.driver.switch_to.window(self.driver.window_handles[0])
+        element = self.driver.find_element(
+            By.CSS_SELECTOR, "path.core-1r4552x-AustinLogo-austin:nth-child(12)")
+        self.driver.execute_script("arguments[0].scrollIntoView();", element)
+
+        if cached_scan:
+            c = 'Cached scan!'
 
         if self.regulatedFlag == True:
-            regResult = "<br><span style=font-size:35px;color:red;><sup>Regulated</sup></span>"
+            regResult = f"<br><span style=font-size:35px;color:red;><sup>{c} Regulated</sup></span>"
         else:
-            regResult = ""
+            regResult = f"{c}"
 
         c = f"<span style=font-size:150px;color:{self.panDashColor};>&#x2022;</span>\
             <span style=font-size:150px;color:{self.denaliColor};>&#x2022;</span>\
@@ -153,12 +169,12 @@ class AUSTINPage():
         self.driver.execute_script(
             f"var ele=arguments[0]; ele.innerHTML = '{c}';", element)
 
-        element = self.driver.find_element(
-            By.CSS_SELECTOR, "path.core-1r4552x-AustinLogo-austin:nth-child(12)")
-        self.driver.execute_script("arguments[0].scrollIntoView();", element)
-
-        element = self.driver.find_element(By.CSS_SELECTOR, "#productId")
-        element.click()
+        try:
+            element = self.driver.find_element(By.CSS_SELECTOR, "#productId")
+            if element:
+                element.click()
+        except Exception as e:
+            print(e)
 
     def setBannedStatus(self):
         # if the item was previously rejected by C-Ops then reject it even if all other indicators
@@ -176,9 +192,6 @@ class AUSTINPage():
             By.CSS_SELECTOR, "path.core-1r4552x-AustinLogo-austin:nth-child(12)")
         self.driver.execute_script("arguments[0].scrollIntoView();", element)
 
-        element = self.driver.find_element(By.CSS_SELECTOR, "#productId")
-        element.click()
-
     def set_scan_type(self, scan_type: "Product"):
         element = self.driver.find_element(
             By.CSS_SELECTOR, f"input[value={scan_type}]").click()
@@ -189,11 +202,19 @@ class AUSTINPage():
 
     def search_container(self, container_id):
         try:
-            # TODO: add the container search function
+            # Enter the scaned barcode into the search box and check if austin
+            # is able to locate the container.  if it is then return the
+            # container id
+            self.driver.switch_to.window(self.driver.window_handles[0])
+            print("find tote ID input field")
+            element = self.driver.find_element(
+                By.CSS_SELECTOR, Locators.container_input_CSSSel)
+            element.send_keys(container_id)
+            element.send_keys(Keys.ENTER)
 
             print("wait to see if we get a container with items")
             # Check if we get a container with items or and empty container
-            css_search_elements = f"{Locators.container_found_CSSSel}, \
+            css_search_elements = f"{Locators.asin_input_CSSSel}, \
                 {Locators.container_empty_CSSSel}"
             element = self.wait.until(EC.visibility_of_element_located(
                 (By.CSS_SELECTOR, css_search_elements)))
@@ -204,6 +225,8 @@ class AUSTINPage():
                 return str(container_id)
             # If the container is empty, then return.
             elif element.text[:19] == "This tote is empty.":
+                self.driver.find_element(
+                    By.CSS_SELECTOR, Locators.item_inspector_CSSSel).click()
                 return "empty_container"
 
         except NoSuchElementException:
@@ -247,11 +270,14 @@ class AUSTINPage():
             self.category = ''
 
     def searchASIN(self, ASIN):
+
         # Enter the scaned barcode into the search box and check if austin
         # is able to locate and ASIN for the item. if it is then return the ASIN
         self.driver.switch_to.window(self.driver.window_handles[0])
         print("find product ID input field")
-        element = self.driver.find_element(By.CSS_SELECTOR, "#productId")
+        self.set_scan_type("Product")
+        element = self.driver.find_element(
+            By.CSS_SELECTOR, Locators.asin_input_CSSSel)
         element.send_keys(ASIN)
         element.send_keys(Keys.ENTER)
 

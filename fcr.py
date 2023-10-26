@@ -64,7 +64,7 @@ class FCRPage():
         msg = CTkMessagebox(
             title="FC Research", message="Please answer survey questions \
                 manually then press Ok", icon="warning",
-            option_1="Ok", option_focus=1)
+            option_1="Ok", option_focus=1, topmost=True)
         response = msg.get()
 
         if response == "Ok":
